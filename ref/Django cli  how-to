@@ -1,4 +1,4 @@
-#Create env from directory main folder
+#Create env from directory main folder ref: https://docs.python.org/3/library/venv.html
 python3 -m venv ./venv
 
 #Activate enviroment
@@ -16,4 +16,7 @@ git init
 # Create gitignore file using website
 http://www.gitignore.io/
 
-    # Also - add the venv file to the gitignore
+# Add the venv file to the gitignore
+
+# Run manage.py run server
+python manage.py runserver
