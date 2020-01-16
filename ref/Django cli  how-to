@@ -10,13 +10,21 @@ deactivate
 #Django cli start projecct - to create new django project
 django-admin startproject btre .
 
+##### GIT Section ---------------------------------------
 # Initialize local git repo
 git init 
 
 # Create gitignore file using website
 http://www.gitignore.io/
+    # Add the venv file to the gitignore
 
-# Add the venv file to the gitignore
+# Git add all files and commit to current branch
+git add . && git commit -m 'message'
+
+# Git create branch
+git checkout -b 'name' 
+
+# Git push branch to master and switch to branch
 
 # Run manage.py run server
 python manage.py runserver
