@@ -1,0 +1,19 @@
+#Create env from directory main folder
+python3 -m venv ./venv
+
+#Activate enviroment
+source ./venv/bin/activate
+
+#deactivate enviroment
+deactivate
+
+#Django cli start projecct - to create new django project
+django-admin startproject btre .
+
+# Initialize local git repo
+git init 
+
+# Create gitignore file using website
+http://www.gitignore.io/
+
+    # Also - add the venv file to the gitignore
