@@ -25,6 +25,7 @@
 * <code>git checkout -b 'name' </code>
 
 ### Git push branch to master and switch to branch
+* <code> git push --set-upstream origin branch_name </code>
 
 ### Run manage.py run server command
 * <code>python manage.py runserver </code>
