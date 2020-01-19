@@ -29,3 +29,10 @@
 
 ### Run manage.py run server command
 * <code>python manage.py runserver </code>
+
+### Create Django App
+* <code>python manage.py startapp <name_of_app></code>
+
+### Collect static file command 
+* <code> python manage.py collectstatic</code>
+
