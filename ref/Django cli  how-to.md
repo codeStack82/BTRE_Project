@@ -30,9 +30,14 @@
 ### Run manage.py run server command
 * <code>python manage.py runserver </code>
 
-### Create Django App
-* <code>python manage.py startapp <name_of_app></code>
-
 ### Collect static file command 
 * <code> python manage.py collectstatic</code>
 
+### Create Django App
+* <code>python manage.py startapp <name_of_app> </code>
+* Add app to the Settings.py file
+* Add urls.py file to the app directory
+* Add a new folder to the tempaltes folder ####Note: template folder is the same as the app name
+    * Add html page templates to the templates folder
+* Add new url paths to the urls.py
+* <code></code>
